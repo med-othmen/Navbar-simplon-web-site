@@ -7,8 +7,8 @@ display:flex;
 justify-content: space-round;
 `
 
-export const Lists = styled.div`
-margin-top:1cm;
+export const List = styled.ul`
+margin-top:15px;
 
 `
 export const Itemlist = styled.li`
@@ -17,13 +17,18 @@ margin-left:1.5cm;
 padding-right:2cm;
  
 `
-export const Logo = styled.div`
+export const Logo = styled.img`
+width:150px;
 
-
-padding:0;
 
 `
+export const Lien = styled.a`
+text-decoration:none;
+font-weight:bold;
+color:black
 
+
+`
 
 
 
